@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .donhang {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .card {
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        padding: 10px;
+    }
+    
+    textarea {
+        width: 100%;
+    }
+</style>
+
+<body>
+    <h1>Dat Ban</h1>
+    <div class="donhang">
+        <div class="card">
+            <p>ngay: <input type="text"></p>
+            <p>gio: <input type="gio"></p>
+        </div>
+        <div class="card">
+            <p>yeu cau</p>
+            <textarea name="yeucau"></textarea>
+        </div>
+    </div>
+</body>
+
+</html>
